@@ -14,9 +14,12 @@
 #     print("python is"+x)
 # myfunc()
 #Global Variables
-x="web application"
-def myfunc():
-    x="programming"
-    print("python" +" " + x)
-myfunc()
-print("python used for" +" " + x)
+# x="web application"
+# def myfunc():
+#     x="programming"
+#     print("python" +" " + x)
+# myfunc()
+# print("python used for" +" " + x)
+
+b= list(("palak","Amit","Akash","Deepak"))
+print(b)
