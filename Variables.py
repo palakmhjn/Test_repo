@@ -89,67 +89,68 @@
 # print(text.format(age))
 # a= {1,2,3,4,5,6,6,6,1,0,8,8,9,0,1}
 # print(a)
-# a= {"Amit","palak","Aishwarya"}
-# print(a)
-b= tuple(("palak","Amit","Akash","Deepak"))
-print(b)
+a= {"Amit","palak","Aishwarya"}
+print(sorted(a))
 
-#Changing Tuple values
-thistuple= ("palak","Amit","Akash","Deepak")
-y= list(thistuple)
-y[1]= "Aishwarya"
-thistuple= tuple(y)
-print(thistuple)
-# Checking If Item Exists in List Through Loop
-thistuple= ("palak","Amit","Akash","Deepak")
-if "palak" in thistuple:
-    print("Yes, name is present in the list")
-# Tuple Length
-thistuple= ("palak","Amit","Akash","Deepak")
-print(len(thistuple))
-#SETS
-#Adding new values in Set
-thisset= {"palak","Amit","Akash","Deepak"}
-thisset.add("Aishwarya")
-print(thisset)
-#adding Multiple values In Set
-thisset= {"palak","Amit","Akash","Deepak"}
-thisset.update(["Aishwarya","Ankit"])
-print(thisset)
-#Remove Item from SET
-thisset= {"palak","Amit","Akash","Deepak","Aishwarya","Ankit"}
-thisset.remove("Aishwarya")
-print(thisset)
-#Dictionary
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
-print(thisdict)
-#Accessing Values By It's Key In Dictionary
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
-x= thisdict["Work"]
-print(x)
-# Changing Values By Referring It's Key
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
-thisdict["Work"] = "Tester"
-print(thisdict)
-# Check if Key Exists:
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
-if "Work" in thisdict:
-    print("Software Engineer")
-#Adding Items
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
-thisdict["Company"]= "IntegriChain"
-print(thisdict)
-#Removing Itmes
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer","Company":"IntegriChain"}
-thisdict.pop("Company")
-print(thisdict)
-
-thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer","Company":"IntegriChain"}
-thisdict.popitem()
-print(thisdict)
-
-b= list(("palak","Amit","Akash","Deepak"))
-print(b)
+# b= tuple(("palak","Amit","Akash","Deepak"))
+# print(b)
+#
+# #Changing Tuple values
+# thistuple= ("palak","Amit","Akash","Deepak")
+# y= list(thistuple)
+# y[1]= "Aishwarya"
+# thistuple= tuple(y)
+# print(thistuple)
+# # Checking If Item Exists in List Through Loop
+# thistuple= ("palak","Amit","Akash","Deepak")
+# if "palak" in thistuple:
+#     print("Yes, name is present in the list")
+# # Tuple Length
+# thistuple= ("palak","Amit","Akash","Deepak")
+# print(len(thistuple))
+# #SETS
+# #Adding new values in Set
+# thisset= {"palak","Amit","Akash","Deepak"}
+# thisset.add("Aishwarya")
+# print(thisset)
+# #adding Multiple values In Set
+# thisset= {"palak","Amit","Akash","Deepak"}
+# thisset.update(["Aishwarya","Ankit"])
+# print(thisset)
+# #Remove Item from SET
+# thisset= {"palak","Amit","Akash","Deepak","Aishwarya","Ankit"}
+# thisset.remove("Aishwarya")
+# print(thisset)
+# #Dictionary
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
+# print(thisdict)
+# #Accessing Values By It's Key In Dictionary
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
+# x= thisdict["Work"]
+# print(x)
+# # Changing Values By Referring It's Key
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
+# thisdict["Work"] = "Tester"
+# print(thisdict)
+# # Check if Key Exists:
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
+# if "Work" in thisdict:
+#     print("Software Engineer")
+# #Adding Items
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer"}
+# thisdict["Company"]= "IntegriChain"
+# print(thisdict)
+# #Removing Itmes
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer","Company":"IntegriChain"}
+# thisdict.pop("Company")
+# print(thisdict)
+#
+# thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer","Company":"IntegriChain"}
+# thisdict.popitem()
+# print(thisdict)
+#
+# b= list(("palak","Amit","Akash","Deepak"))
+# print(b)
 
 
 
