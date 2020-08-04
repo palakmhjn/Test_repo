@@ -152,5 +152,10 @@ print(sorted(a))
 # b= list(("palak","Amit","Akash","Deepak"))
 # print(b)
 
+ b= list(("palak","Amit","Akash","Deepak"))
+ print(b)
+
+ print("Hello world")
+
 
 
