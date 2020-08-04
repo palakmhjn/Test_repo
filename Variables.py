@@ -148,5 +148,8 @@ thisdict= {'name': "Palak","age": 27, "Work": "Software Engineer","Company":"Int
 thisdict.popitem()
 print(thisdict)
 
+b= list(("palak","Amit","Akash","Deepak"))
+print(b)
+
 
 
