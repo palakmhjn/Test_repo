@@ -89,8 +89,8 @@
 # print(text.format(age))
 # a= {1,2,3,4,5,6,6,6,1,0,8,8,9,0,1}
 # print(a)
-a= {"Amit","palak","Aishwarya"}
-print(sorted(a))
+#a= fr{"Amit","palak","Aishwarya"}
+#print(a)
 
 # b= tuple(("palak","Amit","Akash","Deepak"))
 # print(b)
@@ -151,6 +151,9 @@ print(sorted(a))
 #
 # b= list(("palak","Amit","Akash","Deepak"))
 # print(b)
+
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
 
  
 
